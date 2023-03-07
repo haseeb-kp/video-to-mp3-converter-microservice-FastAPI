@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  X_TOKEN: haseebkp
+  DATABASE_URL: postgresql://haseeb:password@host.minikube.internal:5432/microservice
